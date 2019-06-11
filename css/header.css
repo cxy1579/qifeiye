@@ -1,0 +1,142 @@
+@charset 'utf-8';
+#header{
+	height:920px;
+}
+/*h-nav start*/
+.h-nav{
+	height:70px;
+	background-color:#333;
+	color:#fff;
+}
+.h-nav-content{
+	margin:0 65px 0 40px;
+	line-height:70px;
+}
+#logo{
+	width:120px;
+	height:100%;
+}
+#logo a{
+	display:block;
+	height:70px;
+	background:url('../images/30.png') no-repeat center;
+}
+.h-nav-content .feilei i{
+	display:none;
+}
+.h-nav-content .middle{
+	top:0;
+	left:200px;
+	font-size:15px;
+}
+.h-nav-content .middle>li{
+	margin:0 23px;
+}
+.h-nav-content .middle li.on:after{
+	content:'';
+	position:absolute;
+	top:32px;
+	left:40px;
+	width:5px;
+	height:5px;
+	border-bottom:1px solid #fff;
+	border-right:1px solid #fff;
+	transform:rotateZ(45deg);
+}
+.h-nav-content .middle li.on>ul{
+	/* display:none; */
+	visibility:hidden;
+	opacity:0;
+	width:80px;
+	top:70px;
+	left:-10px;
+	background-color:#333;
+	line-height:50px;
+	text-indent:8px;
+	box-shadow:0 0 5px 0 #000;
+	transition:.5s;
+	z-index:1;
+}
+.h-nav-content .middle li.on:hover>ul{
+	/* display:block; */
+	visibility:visible;
+	opacity:1;
+}
+.h-nav-content .right{
+	top:0;
+	right:0;
+}
+.h-nav-content .right li{
+	margin:0 12px;
+}
+.h-nav-content .right i{
+	display:block;
+	font-size:20px;
+}
+/*h-nav end*/
+/*h-banner start*/
+.h-banner{
+	background-color:rgba(45,45,45,.5);
+}
+.h-banner:after{
+	content:'';
+	position:absolute;
+	bottom:100px;
+	left:0;
+	right:0;
+	width:16px;
+	height:16px;
+	margin:auto;
+	border-left:4px solid #fff;
+	border-bottom:4px solid #fff;
+	transform:rotate(-45deg);
+	border-radius:3px;
+	cursor:pointer;
+}
+.h-banner .banner-two{
+	display:none;
+}
+.h-banner video{
+	width:100%;
+	height:850px;
+	object-fit:cover;
+	vertical-align:middle;
+	z-index:-1;
+}
+.h-banner .banner{
+	right:6%;
+	top:175px;
+	width:375px;
+}
+.h-banner .banner h2{
+	font-size:40px;
+	color:#c3c3c3;
+	line-height:55px;
+	text-indent:23px;
+	font-weight:normal;
+}
+.h-banner .banner p:nth-of-type(1){
+	margin:70px 0 50px 0;
+	font-size:21px;
+	color:#c3c3c3;
+	text-indent:32px;
+	letter-spacing:5px;
+}
+.h-banner .banner p:nth-of-type(2){
+	width:170px;
+	padding:15px 60px;
+	margin-left:40px;
+	border:1px solid #fff;
+	color:#fff;
+	font-size:23px;
+	text-align:center;
+	font-weight:100;
+	letter-spacing:5px;
+	cursor:pointer;
+	transition:.5s;
+}
+.h-banner .banner p:nth-of-type(2):hover{
+	background-color:#fff;
+	color:#666;
+}
+/*h-banner end*/

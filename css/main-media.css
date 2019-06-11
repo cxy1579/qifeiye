@@ -1,0 +1,311 @@
+@charset 'utf-8';
+@media screen and (max-width:990px){
+	#rightsidebar{
+		display:none;
+	}
+	/*m-introduce start*/
+	.m-introduce{
+		width:auto;
+	}
+	.m-introduce .text h2{
+		margin-top:30px;
+	}
+	.m-introduce .text p:nth-child(3) {
+    margin-bottom:15px;
+}
+	.m-introduce .tv video{
+		display:none;
+	}
+	.m-introduce .tv{
+		height:auto;
+		background-image:none;
+	}
+	.m-introduce .tv img{
+		display:inline;
+		width:768px;
+		margin-bottom:52px;
+	}
+	/*m-introduce end*/
+	/*style-one section-one start*/
+	.style-one .container{
+		margin:0;
+	}
+	.style-one .pic{
+		float:none;
+		width:770px;
+		padding:100px 0;
+		margin:auto;
+	}
+	.style-one .text{
+		float:none;
+		width:770px;
+		margin:auto;
+		padding:0 0 50px 0;
+	}
+	.style-one .text h3{
+		text-align:center;
+	}
+	/*style-one section-one end*/
+	/*.style-two section-two start*/
+	.style-two{
+		padding-top:40px;
+	}
+	.style-two .container {
+		margin:0;
+	}
+	.style-two .container .pic{
+		display:none;
+	}
+	.style-two .container .text{
+		display:none;
+	}
+	.style-two .container .pic-media{
+		display:block;
+		width:300px;
+		margin:auto;
+	}
+	.style-two .pic-media img{
+		width:100%;
+	}
+	.style-two .container .text-media{
+		display:block;
+		max-width:770px;
+		padding:0 15px;
+		margin:auto;
+	}
+	.style-two .text-media h3{
+		margin-bottom:0;
+		font-size:34px;
+		line-height:85px;
+		letter-spacing:0;
+	}
+	.style-two .text-media p{
+		letter-spacing:0;
+	}
+	/*.style-two section-two end*/
+	/*.section-three start*/
+		.section-three .text{
+			padding-bottom:0;
+		}
+		.section-three .text .txt{
+			height:370px;
+		}
+	/*.section-three end*/
+	/*.section-four start*/
+	.section-four .text-media .more{
+		display:block;
+		top:108%;
+		left:15px;
+	}
+	.section-four .more a{
+		color:#3399FF;
+	}
+	/*.section-four end*/
+	/*.advantage start*/
+	.advantage{
+		padding-bottom:0;
+	}
+	.advantage ul{
+		width:766px;
+		height:auto;
+		margin-top:44px;
+	}
+	.advantage li{
+		width:764px;
+		height:140px;
+		margin-bottom:10px;
+	}
+	.advantage li:last-child{
+		margin-bottom:0;
+	}
+	.advantage h3{
+		padding:30px 0 20px 0;
+	}
+	.advantage li i{
+		margin-top:23px;
+	}
+	/*.advantage end*/
+	/*mould start*/
+	.mould{
+		display:none;
+	}
+	/*mould end*/
+	/*history start*/
+	.history h3{
+		width:740px;
+		padding-top:75px;
+		text-align:center;
+	}
+	.history p{
+		margin-bottom:65px;
+	}
+	.history ul{
+		width:550px;
+		margin:auto;
+	}
+	.history li{
+		width:100%;
+	}
+	/*history end*/
+	/*service start*/
+	.service{
+		height:auto;
+	}
+	.service p{
+		width:96%;
+		max-width:765px;
+		margin-bottom:55px;
+	}
+	.service .pic{
+		width:93%;
+		max-width:768px;
+	}
+	/*service end*/
+	/*cp start*/
+	.cp{
+		padding-bottom:80px;
+	}
+	.cp h3{
+		padding:80px 0 70px 0;
+	}
+	.cp ul{
+		width:96%;
+		max-width:770px;
+		height:175px;
+		margin:auto;
+		flex-wrap:wrap;
+	}
+	.cp li{
+		width:49%;
+		flex-grow:1;
+	}
+	.cp .pic{
+		margin:10px 0;
+	}
+	.cp p{
+		display:none;
+	}
+	/*cp end*/
+	/*customer start*/
+	.customer{
+		display:none;
+	}
+	/*customer end*/
+	/*estimate start*/
+	.estimate{
+		display:none;
+	}
+	/*estimate end*/
+}
+@media screen and (max-width:770px){
+	/*m-introduce start*/
+	.m-introduce .text h2{
+		font-size:30px;
+		font-weight:lighter;
+	}
+	.m-introduce .text p{
+		font-size:14px;
+		line-height:38px;
+	}
+	.m-introduce .tv img{
+		width:95%;
+	}
+	/*m-introduce end*/
+	/*style-one section-one start*/
+	.style-one .pic{
+		width:auto;
+		padding:50px 0 25px 0;
+	}
+	.style-one .text{
+		width:auto;
+		padding-bottom:75px;
+	}
+	.style-one .text h3{
+		font-size:30px;
+	}
+	.style-one .text p{
+		font-size:12px;
+	}
+	/*style-one section-one end*/
+	/*.style-two section-two start*/
+	.style-two{
+		padding-bottom:72px;
+	}
+	.style-two .container .pic-media{
+		width:300px;
+	}
+	.style-two .text-media h3{
+		margin-bottom:-10px;
+		font-size:20px;
+		line-height:27px;
+		padding:30px 0 30px 0;
+	}
+	.style-two .text-media p{
+		font-size:12px;
+		line-height:25px;
+	}
+	/*.style-two section-two end*/
+	/* section-three start */
+	.section-three .text p{
+		font-size:14px;
+	}
+	.section-three .text{
+		padding-bottom:40px;
+	}
+	/* section-three end */
+	/*.section-four start*/
+	/*.section-four end*/
+	/*advantage start*/
+	.advantage ul{
+		width:93%;
+		margin-top:0;
+	}
+	.advantage h3{
+		font-size:28px;
+	}
+	.advantage p{
+		line-height:50px;
+	}
+	/*advantage end*/
+	/*history start*/
+	.history h3{
+		padding-top:85px;
+		padding-bottom:40px;
+		width:95%;
+		font-size:20px;
+		text-align:center;
+	}
+	.history p{
+		width:93%;
+		font-size:12px;
+		text-align:center;
+		line-height:21px;
+	}
+	.history ul{
+		width:93%;
+		max-width:550px;
+	}
+	/*history end*/
+	/*service start*/
+	.service h3{
+		width:220px;
+		padding-top:70px;
+		font-size:20px;
+	}
+	.service p{
+		width: 95%;
+		font-size:12px;
+		line-height:23px;
+	}
+	/*service end*/
+	/*cp start*/
+	.cp h3{
+		width:80px;
+		font-size:20px;
+	}
+	.cp ul{
+		width:95%;
+		height:auto;
+	}
+	/*cp end*/
+}

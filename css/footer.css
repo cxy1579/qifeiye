@@ -1,0 +1,144 @@
+@charset 'utf-8';
+/*footer start*/
+#footer{
+	overflow-x:hidden;
+}
+/*.info start*/
+.info{
+	margin:0 45px;
+}
+.info .hot{
+	margin-right:10%;
+	color:#444;
+}
+.info .hot h4{
+	font-weight:normal;
+	font-size:16px;
+	line-height:30px
+}
+.info .hot p{
+	font-size:22px;
+	line-height:40px;
+}
+.info .time p:nth-child(1){
+	font-size:20px;
+	line-height:40px;
+}
+.info .time p:nth-child(2){
+	font-size:14px;
+	line-height:30px;
+	color:#666;
+}
+/*.info end*/
+.link{
+	padding-top:75px;
+}
+.link>p{
+	width:92%;
+	padding:5px 0;
+	margin:auto;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	line-height:25px;
+	color:#61B0FF;
+}
+.link span:nth-of-type(2){
+	display:inline-block;
+	width:190px;
+}
+.link a{
+	margin:0 5px;
+}
+/*infor start*/
+.infor{
+	padding:60px 0 0 45px;
+}
+.infor .l-infor :not(.on){
+	font-weight:bold;
+}
+.infor .l-infor{
+	width:32%;
+	margin-right:3%;
+}
+.infor .l-infor h4{
+	font-size:16px;
+	margin-bottom:25px;
+	letter-spacing:1px;
+}
+.infor .l-infor .on{
+	font-size:14px;
+	line-height:25px;
+	margin-bottom:30px;
+}
+.infor .l-infor p+p{
+	font-size:15px;
+}
+.infor .l-infor p:last-of-type{
+	margin-top:20px;
+	margin-bottom:6px;
+}
+.infor .l-infor a{
+	color:#61B0FF;
+}
+.infor .l-infor img{
+	width:100%;
+}
+.infor .r-infor{
+	width:60%;
+}
+.infor .r-infor dl:nth-of-type(1),dl:nth-of-type(2){
+	width:18%;
+}
+.infor .r-infor dl:nth-of-type(3){
+	width:29%;
+}
+.infor .r-infor dl:last-of-type{
+	width:35%;
+}
+.infor .r-infor dt{
+	margin-bottom:20px;
+	font-size:16px;
+	font-weight:bold;
+}
+.infor .r-infor dd{
+	font-size:13px;
+}
+.infor .r-infor dd:hover{
+	color:#61B0FF;
+}
+.infor .r-infor dd+dd{
+	margin-top:13px;
+}
+.dec{
+	padding-top:55px;
+}
+.dec p{
+	color:#000;
+	padding:10px 0;
+	font-size:13px;
+	text-align:center;
+}
+.license{
+	padding:20px 0;
+	text-align:center;
+}
+.license span{
+	margin:0 20px 0 10px;
+}
+.license .on{
+	margin-right:5px;
+}
+.license .in{
+	display:inline-block;
+	width:195px;
+}
+.license div a{
+	display:block;
+	width:32px;
+	margin:20px auto;
+}
+.license div img{
+	width:100%;
+}
+/*infor end*/
+/*footer end*/
